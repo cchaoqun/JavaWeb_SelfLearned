@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Day_Json_Ajax_I18n:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Day_Json_Ajax_I18n_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Day16_Json_Ajax_I18n/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Day16_Json_Ajax_I18n" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="gson-2.2.4" module-name="Day16_Json_Ajax_I18n" />
+          <element id="library" level="project" name="junit-4.11" />
+          <element id="library" level="project" name="jsp-api (2)" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

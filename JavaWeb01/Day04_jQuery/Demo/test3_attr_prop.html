@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="script/jquery-1.7.2.js"></script>
+    <script type="text/javascript">
+
+        $(function () {
+            //attr
+            // alert( $(":checkbox:first").attr("name") ); // 获取
+            // $(":checkbox:first").attr("name","abc") ; // 设置
+
+            // $(":checkbox").prop("checked",false );// 官方觉得返回undefined是一个错误
+
+            // $(":checkbox:first").attr("abc","abcValue");
+            // alert( $(":checkbox:first").attr("abc") );
+
+            //插入到 div内部
+            // $("<h1>标题</h1>").prependTo( $("div") );
+
+            //和div平级
+            // $("<h1>标题</h1>").insertAfter("div");
+
+            // $("<h1>标题</h1>").insertBefore( $("div") );
+
+            // $("<h1>标题</h1>").replaceWith("div");
+
+            //h1替换掉 div一个
+            // $("div").replaceWith( $("<h1>标题</h1>") );
+
+            //h1替换掉所有的div
+            // $("<h1>标题</h1>").replaceAll( "div" );
+
+            //删除所有
+            // $("div").remove();
+            //清除掉div里面的内容
+            $("div").empty();
+
+
+            // alert($(":checkbox:first").attr("name")); //获取 (传入一个参数)
+            // $(":checkbox:first").attr("name", "abc"); //设置 (传入两个参数 键值对
+
+            // 不推荐操作 checked readOnly selected disable
+            // alert($(":checkbox:first").attr("checked")); // 官方认为返回undefined是一个错误 所以给予一个prop方法
+            // 只推荐操作 checked readOnly selected disable
+            // alert($(":checkbox:first").prop("checked")); // false
+            // $(":checkbox").prop("checked", "true"); // false
+
+            //attr可以设置自定义属性
+            // $(":checkbox:first").attr("self-defined", "self-defined-value");
+            // alert($(":checkbox:first").attr("self-defined"));
+
+
+        });
+
+
+    </script>
+</head>
+<body>
+<body>
+    <br/>
+    多选：
+    <input name="checkbox" type="checkbox" checked="checked" value="checkbox1" />checkbox1
+    <input name="checkbox" type="checkbox" value="checkbox2" />checkbox2
+    <br/><br/>
+    <div>1234</div>
+    <div>1234</div>
+</body>
+</body>
+</html>

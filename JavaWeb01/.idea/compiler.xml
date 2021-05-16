@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="BUILD_PROCESS_HEAP_SIZE" value="2048" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="BookProject" />
+        <module name="Day16_Json_Ajax_I18n" />
+        <module name="Day07_Servlet" />
+        <module name="Day13_Cookie_Session" />
+        <module name="Day15_Filter" />
+        <module name="Day05_Tomcat" />
+        <module name="Day08_JSP" />
+        <module name="Day09_EL" />
+        <module name="Day06_Servlet" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="BookProject" target="1.5" />
+      <module name="Day05_Tomcat" target="1.5" />
+      <module name="Day06_Servlet" target="1.8" />
+      <module name="Day07_Servlet" target="1.8" />
+      <module name="Day08_JSP" target="1.8" />
+      <module name="Day09_EL" target="1.8" />
+      <module name="Day13_Cookie_Session" target="1.5" />
+      <module name="Day15_Filter" target="1.8" />
+      <module name="Day16_Json_Ajax_I18n" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="GENERATE_NO_WARNINGS" value="true" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding=UTF-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BookProject" options="" />
+      <module name="Day05_Tomcat" options="" />
+      <module name="Day06_Servlet" options="" />
+      <module name="Day07_Servlet" options="" />
+      <module name="Day08_JSP" options="" />
+      <module name="Day09_EL" options="" />
+      <module name="Day13_Cookie_Session" options="" />
+      <module name="Day15_Filter" options="" />
+      <module name="Day16_Json_Ajax_I18n" options="" />
+    </option>
+  </component>
+</project>

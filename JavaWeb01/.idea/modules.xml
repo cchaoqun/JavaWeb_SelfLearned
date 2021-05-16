@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BookProject/BookProject.iml" filepath="$PROJECT_DIR$/BookProject/BookProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day02_JavaScript/Day02_JavaScript.iml" filepath="$PROJECT_DIR$/Day02_JavaScript/Day02_JavaScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day03_jQuery/Day03_jQuery.iml" filepath="$PROJECT_DIR$/Day03_jQuery/Day03_jQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day04_jQuery/Day04_jQuery.iml" filepath="$PROJECT_DIR$/Day04_jQuery/Day04_jQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day05_Tomcat/Day05_Tomcat.iml" filepath="$PROJECT_DIR$/Day05_Tomcat/Day05_Tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day05_Xml/Day05_Xml.iml" filepath="$PROJECT_DIR$/Day05_Xml/Day05_Xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day05_book_static/Day05_book_static.iml" filepath="$PROJECT_DIR$/Day05_book_static/Day05_book_static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day06_Servlet/Day06_Servlet.iml" filepath="$PROJECT_DIR$/Day06_Servlet/Day06_Servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day07_Servlet/Day07_Servlet.iml" filepath="$PROJECT_DIR$/Day07_Servlet/Day07_Servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day08_JSP/Day08_JSP.iml" filepath="$PROJECT_DIR$/Day08_JSP/Day08_JSP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day09_EL/Day09_EL.iml" filepath="$PROJECT_DIR$/Day09_EL/Day09_EL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day13_Cookie_Session/Day13_Cookie_Session.iml" filepath="$PROJECT_DIR$/Day13_Cookie_Session/Day13_Cookie_Session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day15_Filter/Day15_Filter.iml" filepath="$PROJECT_DIR$/Day15_Filter/Day15_Filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Day16_Json_Ajax_I18n/Day16_Json_Ajax_I18n.iml" filepath="$PROJECT_DIR$/Day16_Json_Ajax_I18n/Day16_Json_Ajax_I18n.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb01.iml" filepath="$PROJECT_DIR$/JavaWeb01.iml" />
+    </modules>
+  </component>
+</project>

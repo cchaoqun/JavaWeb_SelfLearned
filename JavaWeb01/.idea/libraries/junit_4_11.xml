@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="junit-4.11">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Day16_Json_Ajax_I18n/web/WEB-INF/lib/junit-4.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

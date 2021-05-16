@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="../script/jquery-1.7.2.js"></script>
+<script type="text/javascript">
+
+	$(function(){
+		//testDiv.css("color","red")
+		//testDiv.style.color = "blue";
+
+//jQuery对象的本质是 DOM对象的数组+jQuery提供的一系列功能函数
+		// var arr = [12,"abc",true];
+		//
+		// var $btns = $("button");
+		//
+		// for (var i = 0; i < $btns.length; i++){
+		// 	alert($btns[i]);
+		// }
+
+		// document.getElementById("testDiv").innerHTML = "This is field InnerHTML of DOM  object"
+		// document.getElementById("testDiv").innerHTML = "这是dom对象的属性InnerHTML";
+//DOM对象的属性和方法 jQuery对象无法使用
+		// $("#testDiv").innerHTML = "这是dom对象的属性InnerHTML";
+
+		// $("#testDiv").click(function () {
+		// 	alert("click()是jQuery对象的方法");
+		// });
+//jQuery对象的属性和方法 DOM对象无法使用
+		// document.getElementById("testDiv").click(function () {
+		// 	alert("click()是jQuery对象的方法");
+		// });
+
+//DOM jQuery 对象的相互转换
+		// DOM对象   --> $(dom对象) --> jQeury对象   var $obj = $(DOM对象)
+		alert($(document.getElementById("testDiv")));
+		// jQuery对象 -->jQuery[0] --> DOM对象	   var dom = $obj[下标]
+		alert($("#testDiv")[0]);
+		// alert( $(document.getElementById("testDiv"))[0] );
+
+		//查询 button标签的jQuery对象中的第一个, 如果只查到一个, 结果仍然为 jQuery对象
+		// alert( $("button:first") );
+	});
+
+</script>
+</head>
+<body>
+	<div id="testDiv">Atguigu is Very Good!</div>
+	
+	<button id="dom2dom">使用DOM对象调用DOM方法</button>
+	<button id="dom2jQuery">使用DOM对象调用jQuery方法</button>
+	<button id="jQuery2jQuery">使用jQuery对象调用jQuery方法</button>
+	<button id="jQuery2dom">使用jQuery对象调用DOM方法</button>
+
+
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+
+        function onchangeFun(){
+            alert("静态注册onchange事件");
+        }
+
+        window.onload = function(){
+            //1 获取标签对象
+            var selectObj = document.getElementById("choice");
+            alert(selectObj);
+
+            //2 通过标签对象.事件名() = function(){}
+            selectObj.onchange = function (){
+                console.log("动态注册onchange事件")
+            }
+
+
+        }
+
+
+    </script>
+</head>
+<body>
+
+    请选择:
+    <!-- 静态注册onchange事件-->
+    <select onchange="onchangeFun();">
+        <option >people</option>
+        <option >name1</option>
+        <option >name2</option>
+        <option >name3</option>
+        <option >name4</option>
+
+    </select>
+
+
+    请选择2:
+    <!-- 动态注册onchange事件-->
+    <select onchange="onchangeFun();" id="choice">
+        <option >people</option>
+        <option >name1</option>
+        <option >name2</option>
+        <option >name3</option>
+        <option >name4</option>
+
+    </select>
+
+
+</body>
+</html>

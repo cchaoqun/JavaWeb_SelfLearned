@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        function fun(a){
+            alert(arguments);
+            alert(arguments.length); //可变参数个数
+            // alert(arguments[0]);
+            // alert(arguments[1]);
+            // alert(arguments[2]);
+            for(var i=0; i<arguments.length; i++){
+                alert(arguments[i]);
+            }
+            alert("a = "+a);
+
+            alert("无参函数fun()");
+        }
+        // fun(1, "abc", true);
+
+        //计算所有参数相加的和并返回
+        function sum(num1, num2){
+            var res = 0;
+            for(var i=0; i<arguments.length; i++){
+                if(typeof(arguments[i])=="number"){
+                    res += arguments[i];
+                }
+            }
+            return res;
+        }
+        alert(sum(1,2,"abc",5,5,5,1));
+
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

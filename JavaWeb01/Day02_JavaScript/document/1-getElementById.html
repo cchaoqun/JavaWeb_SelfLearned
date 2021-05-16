@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        /**
+         * 用户点击check, 获取输入框的内容, 验证是否合法
+         * 验证的规则是: 必须由 字母 数字 下划线并且长度5-12
+         */
+        function onclickFun(){
+            //1 当操作一个标签, 需要先获取标签对象
+            var usernameObj = document.getElementById("username")
+            // [object HTMLInputElement] 它是dom对象
+            // alert(usernameObj.value);
+            var usernameText = usernameObj.value;
+            //如何验证 字符串符合某个规则, 需要用到正则表达式
+            var patt = /^\w{5,12}$/;
+            /**
+             * test()方法用于测试某个字符串是不是匹配我的规则
+             * 匹配就返回true 不匹配就返回false
+             */
+
+            var usernameSpanObj = document.getElementById("usernameSpan");
+            //innerHTML 表示起始标签和结束标签中的内容
+            // innerHTML 这个属性可读 可写
+            usernameSpanObj.innerHTML = "ccq";
+
+
+            if(patt.test(usernameText)){
+                // alert('用户名合法');
+                // usernameSpanObj.innerHTML = "用户名合法"
+                usernameSpanObj.innerHTML = "<img src=\"right.png\" width=\"20\" height=\"20\">";
+            }else{
+                // alert('用户名不合法');
+                // usernameSpanObj.innerHTML = "用户名不合法"
+                usernameSpanObj.innerHTML = "<img src=\"wrong.png\" width=\"20\" height=\"20\">";
+            }
+        }
+    </script>
+</head>
+<body>
+    username: <input type="text" id="username" value="ccq"/>
+    <span id="usernameSpan" style="color:red;">
+
+    </span>
+    <button onclick="onclickFun()">check</button>
+</body>
+</html>

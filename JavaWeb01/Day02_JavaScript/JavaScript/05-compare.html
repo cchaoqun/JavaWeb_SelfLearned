@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        /*
+        * JS中 所有变量都可以作为布尔类型使用
+        * 0, null, undefined, ""(空串) 都认为为false
+        * */
+
+        // var a = 0;
+        // if(a){
+        //     alert("0 is true");
+        // }else{
+        //     alert("0 is false");
+        //
+        // }
+        //
+        // var b = null;
+        // if(b){
+        //     alert("null is true");
+        // }else{
+        //     alert("null is false");
+        //
+        // }
+        //
+        // var c = undefined;
+        // if(c){
+        //     alert("undefined is true");
+        // }else{
+        //     alert("undefined is false");
+        //
+        // }
+        //
+        // var d = "";
+        // if(d){
+        //     alert("空串 is true");
+        // }else{
+        //     alert("空串 is false");
+        //
+        // }
+
+        /*
+        * && 且运算
+        * 两种情况
+        *   1 当表达式全为真, 返回最后一个表达式的值
+        *   2 当表达式中, 有一个为假时, 返回第一个为假的表达式的值
+        * */
+
+        // var a = "abc";
+        // var b = true;
+        // var c = false;
+        // var d = null;
+        // alert(a && b);// true
+        // alert(b && a);// abc
+        // alert(a && d);// null
+        // alert(a && c);// false
+        //
+        // alert(a && d && c);//null
+
+
+        /*
+        * || 或运算
+        * 两种情况
+        *   1 当表达式全为假, 返回最后一个表达式的值
+        *   2 当表达式中, 有一个为真时, 返回第一个为假的表达式的值
+        * */
+
+        var a = "abc";
+        var b = true;
+        var c = false;
+        var d = null;
+
+        alert(d || c); // false
+        alert(c || d); // null
+        alert(a || c); // abc
+        alert(b || c); // true
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

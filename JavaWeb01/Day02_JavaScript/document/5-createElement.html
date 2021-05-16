@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+
+
+        window.onload = function() {
+            var divObj = document.createElement("div"); //在内存中<div></div>
+            alert(divObj);
+            // divObj.innerHTML = "ccq"; // <div>ccq</div>
+
+            var textNodeObj = document.createTextNode("ccq1");
+
+            divObj.appendChild(textNodeObj);
+
+            //将创建的div标签放入head标签中
+            //页面加载完成之后放入head标签 否则读取到这一行 还没创建head标签,为null
+            document.body.append(divObj);
+        }
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
